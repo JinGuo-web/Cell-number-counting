@@ -1,3 +1,5 @@
+This project is designed with MATLAB.
+
 For this project, it comes up with 3 main methods to count the number of red blood cells in an image.  The first method is called Erosion method.  In this method, we first changed the color image to grayscale image, then we enhanced the contrast, fill-holes, and eliminate the black dots in the image.  We then applied the erosion and count the white region, and the number of cells were counted, which was 110 cells.  
 
 The problem of this method is that it cannot count the overlapping cells and some cells were counted twice.  The second method is called Imfindcircle.  With this method, we enhanced the contrast first, then applied the function imfindcircle to count the number of cells, which gave 158 cells.  The problem with this method is that it can only count the cells that has perfectly circles.  It cannot count the cells at the edge.
